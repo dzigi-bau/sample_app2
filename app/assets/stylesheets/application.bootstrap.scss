@@ -91,6 +91,25 @@ footer {
         }
     }
 }
+
+@media (max-width: 800px) {
+  footer {
+    small {
+      display: block;
+      float: none;
+      margin-bottom: 1em;
+    }
+    ul {
+      float: none;
+      padding: 0;
+      li {
+        float: none;
+        margin-left: 0;
+      }
+    }
+  }
+}
+
 /* misc */
 
 .debug_dump {
@@ -176,4 +195,10 @@ height: auto !important;
       box-shadow: 0 0 0 0.25rem rgba(var(--bs-danger-rgb), 0.25);
     }
   }
+}
+/* dropdown menu */
+/* Dropdown menu za Bootstrap 5 */
+.dropdown-menu.active,
+.dropdown-menu.show {
+  display: block;
 }
