@@ -216,3 +216,43 @@ height: auto !important;
     width: auto;
     margin-left: 0;
 }
+
+/* Users index */
+
+.users {
+    list-style: none;
+    margin: 0;
+    li {
+        overflow: auto;
+        padding: 10px 0;
+        border-bottom: 1px solid $gray-medium-light;
+        margin-bottom: 0px;
+    }
+}
+
+/* Kaminari pagination styling */
+.pagination {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  margin: 1rem 0;
+}
+
+.pagination a, .pagination span {
+  padding: 0.5rem 0.75rem;
+  margin: 0 2px;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+.pagination .current {
+  background-color: #0d6efd;
+  color: white;
+  border-color: #0d6efd;
+}
+
+.pagination a:hover {
+  background-color: #e9ecef;
+}
